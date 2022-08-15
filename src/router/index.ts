@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import MoleculaCabecalho from "@/components/moleculas/molecula-cabecalho.vue";
+import PaginaPrincipal from "@/components/paginas/pagina-principal.vue";
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
     path: "/",
-    name: "HelloWorld",
-    component: MoleculaCabecalho,
+    name: "Home",
+    component: PaginaPrincipal,
   },
 ];
 
