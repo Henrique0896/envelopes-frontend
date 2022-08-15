@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
+import MoleculaCabecalho from "@/components/moleculas/molecula-cabecalho.vue";
 
 Vue.use(VueRouter);
 
@@ -8,8 +8,8 @@ const routes: Array<RouteConfig> = [
   {
     path: "/",
     name: "HelloWorld",
-    component: HelloWorld,
-  }
+    component: MoleculaCabecalho,
+  },
 ];
 
 const router = new VueRouter({
