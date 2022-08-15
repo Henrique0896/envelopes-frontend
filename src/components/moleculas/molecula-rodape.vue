@@ -2,7 +2,7 @@
   <v-footer dark padless>
     <v-card class="flex" flat tile>
       <v-card-title class="cor-1">
-        <strong>{{ slogan }}</strong>
+        <strong class="cor-5-texto">{{ slogan }}</strong>
 
         <v-spacer></v-spacer>
 
@@ -11,11 +11,10 @@
           :dadosBotao="botao"
           :key="botao.icone"
         />
-
       </v-card-title>
 
-      <v-card-text class="py-2 white--text text-center cor-1">
-        <strong></strong>{{ marca }} | {{ anoAtual }}
+      <v-card-text class="py-2 text-center cor-1">
+        <p class="cor-5-texto">{{ marca }} | {{ anoAtual }}</p>
       </v-card-text>
     </v-card>
   </v-footer>
