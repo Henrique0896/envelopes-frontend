@@ -1,4 +1,4 @@
-export default class Liks {
+export default class Links {
     static INICIO = "/";
     static SOBRE = "/sobre";
     static CONTATO = "/contato";

@@ -18,13 +18,13 @@
   </v-app-bar>
 </template>
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import Cores from '@/constants/cores';
-import Links from '@/constants/links';
-import { Cabecalho } from '@/constants/textos';
-import IDadosBotao from '@/models/interfaces/IDadosBotao';
-import AtomoBotaoTexto from '@/components/atomos/atomo-botao-texto.vue';
-import AtomoLogo from '../atomos/atomo-logo.vue';
+import { Component, Vue } from "vue-property-decorator";
+import Cores from "@/constants/cores";
+import Links from "@/constants/links";
+import { Cabecalho } from "@/constants/textos";
+import IDadosBotao from "@/models/interfaces/IDadosBotao";
+import AtomoBotaoTexto from "@/components/atomos/atomo-botao-texto.vue";
+import AtomoLogo from "../atomos/atomo-logo.vue";
 
 @Component({
   components: {
