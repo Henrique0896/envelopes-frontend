@@ -30,6 +30,3 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class OrganismoSeusEnvelopes extends Vue {}
 </script>
-<style scoped>
-@import "../../styles/principal.css";
-</style>

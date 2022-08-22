@@ -51,7 +51,3 @@ export default class MoleculaRodape extends Vue {
   anoAtual = new Date().getFullYear();
 }
 </script>
-
-<style scoped>
-@import "../../styles/principal.css";
-</style>

@@ -1,3 +1,8 @@
+h3 {
+  margin: 0px;
+  font-size: 18px;
+}
+
 .cor-1 {
   background-color: #686466; /* cinza escuro */
 }
@@ -15,6 +20,15 @@
 }
 .cor-1-texto {
   color: #686466;
+}
+.cor-2-texto {
+  color: #839cb5;
+}
+.cor-3-texto {
+  color: #96d7eb;
+}
+.cor-4-texto {
+  color: #b1e1e9;
 }
 .cor-5-texto {
   color: #f2e4f9;
