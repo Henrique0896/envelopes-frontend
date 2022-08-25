@@ -6,7 +6,7 @@
       </template>
        <template #envelopes>
         <organismo-divisao-mensal />
-        <organismo-seus-envelopes />
+        <organismo-divisao-mensal />
       </template>
       <template #rodape>
         <molecula-rodape />
@@ -19,14 +19,12 @@ import { Component, Vue } from "vue-property-decorator";
 import MoleculaCabecalho from "../moleculas/molecula-cabecalho.vue";
 import MoleculaRodape from "../moleculas/molecula-rodape.vue";
 import OrganismoDivisaoMensal from "../organismos/organismo-divisao-mensal.vue";
-import OrganismoSeusEnvelopes from "../organismos/organismo-seus-envelopes.vue";
 import TemplatePrincipal from "../templates/template-principal.vue";
 
 @Component({
   components: {
     TemplatePrincipal,
     OrganismoDivisaoMensal,
-    OrganismoSeusEnvelopes,
     MoleculaCabecalho,
     MoleculaRodape,
   },
